@@ -118,6 +118,11 @@
       "description": "enter your caption if you want to show on status reply.",
       "required": true,
       "value": "➺үσυя sтαтυs sεεη נυsт ησω вү sιℓεηт-sσвx-м∂"
+    },
+    "AUTO_REPLY_STATUS": {
+      "description": "you can true or false it.",
+      "required": true,
+      "value": "true"
     }
 
 
