@@ -6,30 +6,41 @@ const fetch = require('node-fetch');
 
 cmd({
     pattern: "gitclone",
-    alias: ["clone", "github"],
-    react: "🌐",
-    desc: "Clone a GitHub repository.",
+    alias: ["git"],
+    desc: "Download GitHub repository as a zip file.",
+    react: "📦",
     category: "downloader",
     filename: __filename
-}, async (conn, mek, m, {from, args, q, reply}) => {
+},
+async (conn, mek, m, { from, quoted, args, reply }) => {
+    if (!args[0]) {
+        return reply(`Where is the GitHub link?\n\nExample:\n.gitclone https://github.com/TraderAn-King/BEN_BOT-V1`);
+    }
+
+    if (!/^(https:\/\/)?github\.com\/.+/.test(args[0])) {
+        return reply("⚠️ Invalid GitHub link.");
+    }
+
     try {
-        if (!q) return reply("Where is the GitHub link?\n\n📌 Example: .gitclone https://github.com/PRINCE-GDS/PRINXE-MD");
-
-        const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i;
-        if (!regex.test(q)) return reply("⚠️ Link incorrect.");
-
-        let [_, user, repo] = q.match(regex) || [];
-        repo = repo.replace(/.git$/, '');
-        let url = `https://api.github.com/repos/${user}/${repo}/zipball`;
+        let regex = /github\.com\/([^\/]+)\/([^\/]+)(?:\.git)?/i;
+        let [, user, repo] = args[0].match(regex) || [];
+        if (!user || !repo) throw new Error("Invalid GitHub URL.");
+        let apiUrl = `https://api.github.com/repos/${user}/${repo}/zipball`;
+        let response = await fetch(apiUrl, { method: "HEAD" });
+        let filename = response.headers
+            .get("content-disposition")
+            .match(/filename=(.*)/)[1];
         
-        // Fetch file information
-        let response = await fetch(url, {method: 'HEAD'});
-        let filename = response.headers.get('content-disposition').match(/attachment; filename=(.*)/)[1];
+        reply(`📥 Downloading repository...\n\nRepository: ${user}/${repo}\nFilename: ${filename}`);
 
-        reply("✳️ *Wait, sending repository...*");
-        conn.sendFile(from, url, filename, null, mek);
+        await conn.sendMessage(from, {
+            document: { url: apiUrl },
+            fileName: `${filename}.zip`,
+            mimetype: "application/zip"
+        }, { quoted: mek });
+
     } catch (error) {
         console.error(error);
-        reply("An error occurred while fetching the repository.");
+        reply("❌ Failed to download the repository. Please try again later.");
     }
 });
