@@ -1,4 +1,3 @@
-//CODING BY NOTNING ❤️‍🩹🫅🏻
 const fs = require('fs'); // برای ذخیره فایل‌ها
 const path = require('path'); // برای مدیریت مسیر فایل‌ها
 cmd({
