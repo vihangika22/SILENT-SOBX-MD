@@ -139,6 +139,15 @@ src="https://cardivo.vercel.app/api?name=SILENT%20SOBX%20MD%20V2&description=�
  
 ----------
 
+----------
+
+<p align="center">
+<a href='https://webpair-mega-silent-sobx.onrender.com' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-0000FF?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
+ 
+----------
+
 
  
 ### <br>   ❖ DEPLOY_HEROKU ❖
