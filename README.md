@@ -133,9 +133,10 @@ src="https://cardivo.vercel.app/api?name=SILENT%20SOBX%20MD%20V2&description=ðŸ¥
 ----------
 
 <p align="center">
-<a href="https://silent-sobx-md-web-pair.onrender.com"><img height= "35" title="Author" src="https://img.shields.io/badge/GET SESSION ID:-blue?style=for-the-badge&logo=render"></a>
-<p/>
-
+<a href='https://silent-sobx-md-web-pair.onrender.com' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-FF0000?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
+ 
 ----------
 
 
