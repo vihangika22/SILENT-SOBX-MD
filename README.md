@@ -106,7 +106,7 @@ src="https://cardivo.vercel.app/api?name=SILENT%20SOBX%20MD%20V2&description=ðŸ¥
 <div style="text-align: center;">
     <a
 href="https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7" target="_blank">
-    <img src="https://img.shields.io/badge/Join-YouTube Channel-FF0000?style=for-the-badge" alt="YouTube Channel">
+    <img src="https://img.shields.io/badge/follow-YouTube Channel-FF0000?style=for-the-badge" alt="YouTube Channel">
 </a>
 
 --------------
