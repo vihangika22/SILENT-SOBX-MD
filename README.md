@@ -103,7 +103,11 @@ src="https://cardivo.vercel.app/api?name=SILENT%20SOBX%20MD%20V2&description=�
 
 ----------
 
-<a href="https://youtube.com/@silentlover432?si=F1IIc1As0gu3ijqk"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ʏᴏᴜᴛᴜʙᴇ%20ᴄʜᴀɴɴᴇʟ-blue" alt="🔰 ᴊᴏɪɴ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
+<div style="text-align: center;">
+    <a
+href="https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7" target="_blank">
+    <img src="https://img.shields.io/badge/Join-YouTube Channel-FF0000?style=for-the-badge" alt="YouTube Channel">
+</a>
 
 --------------
 
