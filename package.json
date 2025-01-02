@@ -8,7 +8,7 @@
     "stop": "pm2 stop SILENT-SOBX-MD",
     "restart": "pm2 restart SILENT-SOBX-MD"
   },
-  "dependencies": {
+"dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@black-king/temp-mail-gen": "1.0.1",
         "@blackamda/song_video_dl": "1.1.0",
@@ -29,7 +29,6 @@
         "@tobyg74/tiktok-api-dl": "1.0.13",
         "@vitalets/google-translate-api": "9.2.0",
         "@whiskeysockets/baileys": "git+https://github.com/prabathLK/Baileys-6.0.0.git#master",
-        "@dark-yasiya/yt-dl.js":"latest", 
         "api-dylux": "latest",
         "aptoide-scraper": "1.0.1",
         "awesome-phonenumber": "7.2.0",
@@ -90,6 +89,7 @@
         "qrcode-terminal": "^0.12.0",
         "qs": "^6.10.1",
         "remove-bg-node": "1.0.3",
+        "ruhend-scraper":"8.0.7", 
         "Sachibot-Spotifydl": "git+https://github.com/AlenVelocity/spotifydl-core.git",
         "scr-emoji": "0.0.3",
         "seedr": "^1.1.2",
@@ -121,6 +121,7 @@
         "yt-search": "2.12.1", 
         "@mrnima/tiktok-downloader":"1.0.0",
         "@mrnima/facebook-downloader":"1.0.0",
-        "mrnima-moviedl":"1.0.0"
+        "mrnima-moviedl":"1.0.0", 
+        "@dark-yasiya/yt-dl.js":"latest"
     }
 }
