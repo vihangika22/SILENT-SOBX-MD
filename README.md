@@ -1,3 +1,7 @@
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF033E&center=true&width=1000&height=200&lines=SILENT-SOBX-MD" alt="Typing SVG" /></a>
+  </p>
+
+
 ---------
 
 ### <br>  ❖ SILENT-SOBX-MD ❖
@@ -9,7 +13,7 @@
 
 -------
 
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F70000&background=000000&center=true&vCenter=true&multiline=true&random=true&width=435&lines=`SILENT-SOBX-MD-V2-WHATSAPP-BOT`" alt="Typing SVG" /></a>
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&background=000000&center=true&vCenter=true&multiline=true&random=true&width=435&lines=✰SILENT-SOBX-MD-WHATSAPP-BOT✰" alt="Typing SVG" /></a>
  
 ------------
 
@@ -276,8 +280,11 @@ jobs:
 
 -------------------
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=000000&center=true&width=910&height=100&lines=SILENT-SOBX-MD;+THE+WORLD+BEST+WHATSAPP+BOT;+CREATED+BY+SILENTLOVER+432🖤;KEEP+USING+SILENT-SOBX-MD" alt="Typing SVG" /></a>
+  </p>
+ 
+
 
 -----------
 
